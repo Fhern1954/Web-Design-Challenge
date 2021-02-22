@@ -61,7 +61,7 @@ button:focus {
 }
 }
 
-.description-content {
+.content_description {
 	margin-top: 30px;
 	margin-bottom: 60px;
 	padding: 10px 30px 5px;
@@ -76,7 +76,7 @@ button:focus {
 	color: black;
 	background-color: white;
 }
-.description-header, .imageNav-header {
+.header, .imageNav-header {
 	padding-top: 15px; 
 	padding-left: 4px;
 	color: #38ab87;
@@ -108,19 +108,25 @@ p{
     border-style: solid; 
 }
 
-.footer{
-	background-color: #505251; 
-    border-top-style: solid; 
-    border-top-width: 4px; 
-    border-top-color: #38ab87;
-    color: white; 
-    min-height: 50px; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    text-align: center; 
-    position: fixed;
-    padding-top: 10px; 
-	width: 100%;
-	left: 0;
-	bottom: 0;
-}
+
+
+/* .sidebar {
+	height: 200px;
+	width: 150px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: 40px;
+	background-color: #f1f1f1;
+	}
+	
+	.sidebar div {
+	padding: 8px;
+	font-size: 24px;
+	display: block;
+	}
+	
+	.body-text {
+	margin-right: 150px;
+	font-size: 18px;
+	} */

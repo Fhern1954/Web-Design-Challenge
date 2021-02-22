@@ -22,10 +22,10 @@
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="temp.html">Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
@@ -35,10 +35,70 @@
             <a class="nav-link" href="data.html">Data</a>
           </li>
         </ul>
-    </div>
+      </div>
+    </nav>
+  </div>
+    
     <!--End of Navbar I hope!-->
 
-    
+
+    <!--Start of container-->
+      <div class="container">
+        <section class="row">
+          <div class="col-lg-7 col-med-12">
+            <div class="content_description">
+              <h1 class="header">Summary: Latitude v X</h1>
+              <hr>
+              <img src="Resources/assets/images/Fig1.png" alt="Latitude v Temperature" class="description-image">
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-lg-5 col-md-12">
+      </div>
+
+    <!--Start of Visualizations R sidebar-->
+  <div class="sidebar"> 
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xm-12">
+      <section id="imageNav-area">
+        <div class="imageNav-content">
+          <h2 class="imageNav-header">Visualizations</h2>
+          <hr />
+          <div id="images">
+            <div class="row">
+                <div>
+                <a href="temp.html">
+                                <img src="Resources/assets/images/Fig1.png" alt="Latitude v Temperature" title="Latitude v Temperature" class="imageNav photo"></a>
+                </div>
+               
+                <div>
+                <a href="humidity.html">
+                              <img src="Resources/assets/images/Fig2.png" alt="Latitude v Humidity" title="Latitude v Humidity" class="imageNav photo"></a>
+                </div>
+               
+                <div>
+                <a href="cloudiness.html">
+                              <img src="Resources/assets/images/Fig3.png" alt="Latitude v Cloudiness" title="Latitude v Cloudiness" class="imageNav photo"></a>
+                </div>
+                
+                <div>
+                <a href="wind_speed.html">
+                              <img src="Resources/assets/images/Fig4.png" alt="Latitude v Wind Speed" title="Latitude v Wind Speed" class="imageNav photo"></a>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+    <!--End of ImageNav area-->
+  </div>
+</section>
+</div>
+<!--End of container-->
 
 
     
