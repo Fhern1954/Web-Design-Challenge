@@ -8,8 +8,8 @@ body{
 
 .navbar{
     max-height: 50px; 
-	background-color: #cacccb; 
-    font-size: 15px; 
+	background-color: #757575; 
+    font-size: 18px; 
 }
 
 .navigation .navbar-brand{
@@ -35,7 +35,7 @@ body{
 
 
 /* Media Queries */
-@media (max-width: 1000px){
+@media (max-width: 992px){
 .navbar-expand-lg{
 	background-color: #38ab87;
     margin-right: 50px;
@@ -80,7 +80,7 @@ button:focus {
 	padding-top: 15px; 
 	padding-left: 4px;
 	color: #38ab87;
-	font-size: 26px;
+	font-size: 35px;
 	font-weight: bold;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
@@ -98,7 +98,7 @@ img{
 
 p{
 	color: #414d4a;
-	font-size: 14px;
+	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
