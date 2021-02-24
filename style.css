@@ -1,9 +1,9 @@
-style.css
+
 
 
 
 body{
-    background-color:#474646; 
+    background-color: #c7c7c7; 
 }
 
 .navbar{
@@ -98,7 +98,7 @@ img{
 
 p{
 	color: #414d4a;
-	font-size: 15px;
+	font-size: 17px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
